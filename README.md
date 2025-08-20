@@ -218,15 +218,11 @@ Projeyi geliştirirken kullanılan teknolojiler ve katkıda bulunanlar:
 - **Database**: MySQL 8.0+
 - **AI Assistant**: Claude Sonnet (Development Support)
 
-## 🌐 Demo
-
-[Demo Link] - Canlı demo için tıklayınız
 
 ## 📞 İletişim
 
 Sorularınız için:
-- 📧 Email: [your-email@example.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/[username]/game-compatibility-analyzer/issues)
+- 📧 Email: [oguzhansarioglugil@hotmail.com]
 
 ---
 
