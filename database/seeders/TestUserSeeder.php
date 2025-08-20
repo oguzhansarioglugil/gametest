@@ -20,7 +20,7 @@ class TestUserSeeder extends Seeder
                 'name' => 'Admin',
                 'surname' => 'User',
                 'username' => 'admin',
-                'email' => 'turklojenofficial@gmail.com',
+                'email' => 'a@a.com',
                 'password' => Hash::make('123456'),
                 'birth_date' => '1990-01-01',
                 'role' => 'admin',
