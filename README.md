@@ -39,6 +39,19 @@ Modern bir oyun uyumluluk analiz platformu. Kullanıcıların sistem bilgilerini
 - **Alpine.js**: Reaktif JavaScript bileşenleri
 - **Gradient Tasarımı**: Görsel olarak çekici arayüz
 
+### 📷 Ekran Görüntüsü
+
+<img width="1856" height="919" alt="Image" src="https://github.com/user-attachments/assets/68364e0e-5a4c-4435-afba-a6a11c957c1c" />
+<img width="1856" height="923" alt="Image" src="https://github.com/user-attachments/assets/cf240dc0-7b6a-40f2-898e-34b8fe464964" />
+<img width="1859" height="923" alt="Image" src="https://github.com/user-attachments/assets/99d41830-a245-4ef0-9048-7be8db67248b" />
+<img width="1857" height="921" alt="Image" src="https://github.com/user-attachments/assets/629f2ba0-54cf-482c-b296-30b1ceeb9207" />
+<img width="1860" height="921" alt="Image" src="https://github.com/user-attachments/assets/c680c661-f428-4ae1-bcaf-caba12643a8d" />
+<img width="1855" height="923" alt="Image" src="https://github.com/user-attachments/assets/59e79e47-34ea-4e62-9591-3bed19d7b04b" />
+<img width="1857" height="919" alt="Image" src="https://github.com/user-attachments/assets/1fa48055-45af-4474-a069-7e771dd4adc1" />
+<img width="1857" height="918" alt="Image" src="https://github.com/user-attachments/assets/83311073-a8c4-4a95-bdc7-599d0e5a0136" />
+<img width="1858" height="925" alt="Image" src="https://github.com/user-attachments/assets/36e99ce0-b792-49e1-ad05-2bf4fe68f588" />
+<img width="1856" height="921" alt="Image" src="https://github.com/user-attachments/assets/12cee0d7-67fc-45ba-84d5-454708585c59" />
+
 ## 🚀 Kurulum
 
 ### Gereksinimler
