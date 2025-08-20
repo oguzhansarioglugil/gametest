@@ -1,45 +1,45 @@
 # 🎮 Game Compatibility Analyzer
 
-Modern bir oyun uyumluluk analiz platformu. Kullanıcıların sistem bilgilerini girerek oyunları çalıştırıp çalıştıramayacaklarını öğrenebilecekleri kapsamlı bir Laravel uygulaması.
+A modern game compatibility analysis platform. A comprehensive Laravel application where users can enter their system information and find out whether they can run games.
 
 ![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-green.svg)
 
-## 🌟 Özellikler
+## 🌟 Features
 
-### 🔐 Kullanıcı Yönetimi
-- **Rol Bazlı Erişim Kontrolü**: User, Admin, SuperAdmin rolleri
-- **Rütbe Sistemi**: Deneyim puanlarına göre kullanıcı rütbeleri
-- **Profil Yönetimi**: Kişisel bilgiler ve sistem bilgileri
-- **Güvenli Kimlik Doğrulama**: Laravel Sanctum entegrasyonu
+### 🔐 User Management
+- **Role-Based Access Control**: User, Admin, SuperAdmin roles
+- **Rank System**: User ranks based on experience points
+- **Profile Management**: Personal information and system specifications
+- **Secure Authentication**: Laravel Sanctum integration
 
-### 🎯 Oyun Yönetimi
-- **Kapsamlı Oyun Veritabanı**: Sistem gereksinimleri ile birlikte
-- **Minimum & Önerilen Gereksinimler**: CPU, GPU, RAM, Disk
-- **Oyun Puanlama Sistemi**: 1-10 arası puanlama
-- **Gelişmiş Arama ve Filtreleme**: Sayfalama ile birlikte
+### 🎯 Game Management
+- **Comprehensive Game Database**: Complete with system requirements
+- **Minimum & Recommended Requirements**: CPU, GPU, RAM, Disk
+- **Game Rating System**: 1-10 scale rating
+- **Advanced Search and Filtering**: With pagination support
 
-### 🔧 Sistem Uyumluluk Analizi
-- **Akıllı Donanım Eşleştirme**: Fuzzy string matching algoritması
-- **Performans Bazlı Karşılaştırma**: Benchmark skorlarına dayalı analiz
-- **Detaylı Uyumluluk Raporu**: Yüzdelik ve renk kodlu sonuçlar
-- **Yükseltme Önerileri**: Otomatik donanım önerileri
+### 🔧 System Compatibility Analysis
+- **Smart Hardware Matching**: Fuzzy string matching algorithm
+- **Performance-Based Comparison**: Analysis based on benchmark scores
+- **Detailed Compatibility Report**: Percentage and color-coded results
+- **Upgrade Recommendations**: Automatic hardware suggestions
 
-### ⚡ Donanım Yönetimi
-- **Marka ve Model Yönetimi**: Intel, AMD, NVIDIA vs.
-- **Benchmark Skorları**: Performans karşılaştırması
-- **Otomatik Tamamlama**: Admin panelinde akıllı arama
-- **Çakışma Çözümü**: Duplicate marka/model temizleme
+### ⚡ Hardware Management
+- **Brand and Model Management**: Intel, AMD, NVIDIA, etc.
+- **Benchmark Scores**: Performance comparison
+- **Auto-completion**: Smart search in admin panel
+- **Conflict Resolution**: Duplicate brand/model cleanup
 
-### 🎨 Modern Arayüz
-- **Responsive Tasarım**: Mobile-first yaklaşım
-- **Tailwind CSS**: Modern ve hızlı stilizasyon
-- **Alpine.js**: Reaktif JavaScript bileşenleri
-- **Gradient Tasarımı**: Görsel olarak çekici arayüz
+### 🎨 Modern Interface
+- **Responsive Design**: Mobile-first approach
+- **Tailwind CSS**: Modern and fast styling
+- **Alpine.js**: Reactive JavaScript components
+- **Gradient Design**: Visually appealing interface
 
-### 📷 Ekran Görüntüsü
+### 📷 Screenshots
 
 <img width="1856" height="919" alt="Image" src="https://github.com/user-attachments/assets/68364e0e-5a4c-4435-afba-a6a11c957c1c" />
 <img width="1856" height="923" alt="Image" src="https://github.com/user-attachments/assets/cf240dc0-7b6a-40f2-898e-34b8fe464964" />
@@ -52,36 +52,36 @@ Modern bir oyun uyumluluk analiz platformu. Kullanıcıların sistem bilgilerini
 <img width="1858" height="925" alt="Image" src="https://github.com/user-attachments/assets/36e99ce0-b792-49e1-ad05-2bf4fe68f588" />
 <img width="1856" height="921" alt="Image" src="https://github.com/user-attachments/assets/12cee0d7-67fc-45ba-84d5-454708585c59" />
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-### Gereksinimler
+### Requirements
 - PHP 8.2+
 - Composer
 - Node.js & NPM
 - MySQL 8.0+
 - Git
 
-### Adım Adım Kurulum
+### Step-by-Step Installation
 
-1. **Projeyi klonlayın:**
+1. **Clone the project:**
 ```bash
 git clone https://github.com/[username]/game-compatibility-analyzer.git
 cd game-compatibility-analyzer
 ```
 
-2. **Bağımlılıkları yükleyin:**
+2. **Install dependencies:**
 ```bash
 composer install
 npm install
 ```
 
-3. **Ortam dosyasını yapılandırın:**
+3. **Configure environment file:**
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-4. **Veritabanı ayarları (.env dosyası):**
+4. **Database settings (.env file):**
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -91,60 +91,60 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. **Veritabanını oluşturun ve migrate edin:**
+5. **Create database and run migrations:**
 ```bash
 php artisan migrate
 ```
 
-6. **Seed verilerini yükleyin:**
+6. **Load seed data:**
 ```bash
 php artisan db:seed
 ```
 
-7. **Frontend assets'leri derleyin:**
+7. **Compile frontend assets:**
 ```bash
 npm run build
 ```
 
-8. **Serveri başlatın:**
+8. **Start the server:**
 ```bash
 php artisan serve
 ```
 
-## 👥 Varsayılan Kullanıcılar
+## 👥 Default Users
 
-Sistem varsayılan olarak şu test kullanıcılarıyla gelir:
+The system comes with the following test users by default:
 
-| Kullanıcı | Email | Şifre | Rol |
-|-----------|--------|--------|-----|
+| User | Email | Password | Role |
+|------|--------|----------|------|
 | Super Admin | superadmin@test.com | password | super_admin |
 | Admin | admin@test.com | password | admin |
 | Test User | testuser@test.com | password | user |
 
-## 🎮 Kullanım
+## 🎮 Usage
 
-### Kullanıcı İşlemleri
-1. **Kayıt Ol / Giriş Yap**
-2. **Profil → Sistem Bilgileri** bölümünden donanımınızı girin
-3. **Oyunlar** sayfasından istediğiniz oyunu seçin
-4. **"Sistemi Test Et"** butonuna tıklayarak uyumluluk analizi yapın
+### User Operations
+1. **Register / Login**
+2. Enter your hardware information from **Profile → System Information**
+3. Select the desired game from **Games** page
+4. Click **"Test System"** button to perform compatibility analysis
 
-### Admin İşlemleri
-- **Oyun Yönetimi**: Yeni oyunlar ekleyin, düzenleyin
-- **Sistem Gereksinimleri**: CPU/GPU seçenekleri ve öneriler
-- **Donanım Yönetimi**: (Sadece SuperAdmin) Markalar ve modeller
+### Admin Operations
+- **Game Management**: Add and edit new games
+- **System Requirements**: CPU/GPU options and recommendations
+- **Hardware Management**: (SuperAdmin only) Brands and models
 
-### SuperAdmin İşlemleri
-- **Kullanıcı Yönetimi**: Rol ve rütbe düzenleme
-- **Donanım Veritabanı**: Marka/model ekleme ve düzenleme
-- **Sistem Ayarları**: Platform yapılandırması
+### SuperAdmin Operations
+- **User Management**: Edit roles and ranks
+- **Hardware Database**: Add and edit brands/models
+- **System Settings**: Platform configuration
 
-## 🏗️ Teknik Mimari
+## 🏗️ Technical Architecture
 
 ### Backend
 - **Framework**: Laravel 11.x
-- **Veritabanı**: MySQL (Eloquent ORM)
-- **Kimlik Doğrulama**: Laravel Sanctum
+- **Database**: MySQL (Eloquent ORM)
+- **Authentication**: Laravel Sanctum
 - **API**: RESTful endpoints
 
 ### Frontend
@@ -153,90 +153,89 @@ Sistem varsayılan olarak şu test kullanıcılarıyla gelir:
 - **Icons**: Font Awesome 6
 - **Build Tool**: Vite
 
-### Önemli Sınıflar
-- `SystemAnalysisController`: Uyumluluk analizi
-- `HardwareManagementController`: Donanım yönetimi
-- `GameController`: Oyun işlemleri
-- `AdminController`: Yönetim paneli
+### Important Classes
+- `SystemAnalysisController`: Compatibility analysis
+- `HardwareManagementController`: Hardware management
+- `GameController`: Game operations
+- `AdminController`: Admin panel
 
-## 📊 Veritabanı Şeması
+## 📊 Database Schema
 
-### Temel Tablolar
-- `users`: Kullanıcı bilgileri ve roller
-- `games`: Oyun veritabanı
-- `game_requirements`: Oyun sistem gereksinimleri
-- `hardware_brands`: Donanım markaları
-- `hardware_models`: CPU/GPU modelleri
-- `user_systems`: Kullanıcı sistem bilgileri
+### Core Tables
+- `users`: User information and roles
+- `games`: Game database
+- `game_requirements`: Game system requirements
+- `hardware_brands`: Hardware brands
+- `hardware_models`: CPU/GPU models
+- `user_systems`: User system information
 
-### İlişkiler
+### Relationships
 - User → UserSystem (One-to-Many)
 - Game → GameRequirement (One-to-Many)
 - HardwareBrand → HardwareModel (One-to-Many)
 - GameRequirement → HardwareModel (Many-to-Many)
 
-## 🔧 Özelleştirme
+## 🔧 Customization
 
-### Yeni Donanım Markası Ekleme
+### Adding New Hardware Brand
 ```bash
 php artisan tinker
 ```
 ```php
 $brand = \App\Models\HardwareBrand::create([
-    'name' => 'Yeni Marka',
+    'name' => 'New Brand',
     'logo_url' => 'https://example.com/logo.png'
 ]);
 ```
 
-### Benchmark Skorları Güncelleme
+### Updating Benchmark Scores
 ```php
 $model = \App\Models\HardwareModel::where('name', 'RTX 4090')->first();
 $model->update(['benchmark_score' => 35000]);
 ```
 
-## 🐛 Bilinen Sorunlar
+## 🐛 Known Issues
 
-- [ ] Bazı eski GPU modelleri için benchmark skorları eksik
-- [ ] Mobil cihazlarda pagination görünümü optimize edilebilir
-- [ ] Bulk işlemler için progress bar eklenebilir
+- [ ] Missing benchmark scores for some older GPU models
+- [ ] Pagination view can be optimized for mobile devices
+- [ ] Progress bar can be added for bulk operations
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`)
-4. Branch'inizi push edin (`git push origin feature/AmazingFeature`)
-5. Pull Request oluşturun
+1. Fork it
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Create a Pull Request
 
-## 📝 Değişiklik Günlüğü
+## 📝 Changelog
 
 ### v1.0.0 (2025-01-XX)
-- ✅ Rol bazlı kullanıcı sistemi
-- ✅ Oyun uyumluluk analizi
-- ✅ Donanım veritabanı yönetimi
-- ✅ Modern responsive arayüz
-- ✅ Admin paneli
-- ✅ Rütbe sistemi
+- ✅ Role-based user system
+- ✅ Game compatibility analysis
+- ✅ Hardware database management
+- ✅ Modern responsive interface
+- ✅ Admin panel
+- ✅ Rank system
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 
-Projeyi geliştirirken kullanılan teknolojiler ve katkıda bulunanlar:
+Technologies used and contributors during project development:
 
 - **Backend**: Laravel 11, PHP 8.2+
 - **Frontend**: Tailwind CSS, Alpine.js
 - **Database**: MySQL 8.0+
 - **AI Assistant**: Claude Sonnet (Development Support)
 
+## 📞 Contact
 
-## 📞 İletişim
-
-Sorularınız için:
+For questions:
 - 📧 Email: [oguzhansarioglugil@hotmail.com]
 
 ---
 
-⭐ Bu projeyi beğendiyseniz star vermeyi unutmayın!
+⭐ If you liked this project, don't forget to give it a star!
